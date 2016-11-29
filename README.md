@@ -3,16 +3,16 @@
 ### Part 1: Git Essentials
 
 
-Check if you have git installed in your machine with  `git --version`, if not install it via apt-get or bower
+Check if you have git installed in your machine with  `git --version`, if not install it via apt-get, brew or bower
 
 
 Basic Commands:
 * `git init` is used to initialize a repository with git version control
-* `git add <filename>, git rm <filename>` is used to add or remove a tracking ofa file. To add all files, use `git add .`. If you removed files and you added new changes, you can use `git add -u`. 
+* `git add <filename>, git rm <filename>` is used to add or remove a tracking of a file. To add all files, use `git add .`. If you removed files and you added new changes, you can use `git add -u`. 
 * `git status` is your best friend. It will tell you what change was done and whether you need to push, pull, or commit. 
-* `git commit -m “commit”` is used to issue a commit message to track your change. The convention is to use lower case letters and shortly describe what change you have peformed, such as Fix bug, Add some function, Refactored something. 
+* `git commit -m “description of changes made”` is used to issue a commit message to track your change. The convention is to use lower case letters and shortly describe what change you have peformed, such as Fix bug, Add some function, Refactored something. 
 * `git push origin master` is used to push your change to the origin remote in the master branch.
-* `git pull origin master` is used to pull the change from the origin remote and from the master branch
+* `git pull origin master` is used to pull the change from the origin remote and from the master branch.
 
 
 Other commands: 
