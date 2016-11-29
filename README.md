@@ -16,7 +16,8 @@ Basic Commands:
 
 
 Other commands: 
-* `git branch` will tell you which branch are you using, the default is `master`* `git remote -v` will tell you the remotes (where are you pushing and pulling to and from)
+* `git branch` will tell you which branch are you using, the default is master  
+* `git remote -v` will tell you the remotes (where are you pushing and pulling to and from)
 * `git remote add origin git@github.com:user/repo.git` is used to add a new remote
 
 
